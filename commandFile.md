@@ -71,12 +71,19 @@
 `kubectl apply -f nginx-deployment.yaml`
 
 `kubectl get pod`
+`kubectl get pod -o wide`
 
 `kubectl get deployment`
 
 ### delete with config
 
 `kubectl delete -f nginx-deployment.yaml`
+
+### Extra
+
+`kubectl get deployment nginx-deployment -o yaml > sample-nginx-output-file.yaml `
+
+`kubectl describe service {service name}`
 
 #Metrics
 
