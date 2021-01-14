@@ -88,3 +88,14 @@
 #Metrics
 
 `kubectl top` The kubectl top command returns current CPU and memory usage for a cluster’s pods or nodes, or for a particular pod or node if specified.
+
+`kubectl get pod --watch`
+
+`echo -n "username" | base64` # for creating base64 string in shell
+
+`kubectl describe service mongodb-service`
+`kubectl get pod -o wide`
+`kubectl get all | grep mongodb`
+`kubectl logs {podsname}`
+
+`minikube service {service name}` # for giving the external ip to the service of pod
